@@ -1,0 +1,83 @@
+* {
+  box-sizing: border-box;
+}
+
+.car-parent {
+  width: 100vw;
+  max-width: 100%;
+  height: 80vh;
+  background-color: rgb(168, 45, 73);
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+
+}
+
+.car-parent h2 {
+    position: absolute;
+    color: #fff;
+    top:0;
+    left: 50%;
+    transform: translate(-50%,50%);
+    -webkit-transform: translate(-50%,50%);
+    -moz-transform: translate(-50%,50%);
+    -ms-transform: translate(-50%,50%);
+    -o-transform: translate(-50%,50%);
+}
+
+.carousel {
+  height: 45vh;
+  background-color: #fff;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+
+.carousel .item {
+ height: 100%;
+ text-align: center;
+ position: relative;
+ margin-top: 2%;
+}
+.carousel .item img {
+  width: 75px;
+  max-width: 100% !important;
+  border-radius: 50% !important;
+  border: 1px solid white !important;
+  overflow: hidden;
+  margin-top: 3%;
+}
+.carousel .item p {
+  color: #000;
+  font-size: 20px;
+  margin: auto auto;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    height: 100%;
+}
+.carousel-indicators [data-bs-target] {
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    width: 25px !important;
+    height: 25px !important;
+}
+
+
+

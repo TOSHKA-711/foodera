@@ -1,0 +1,187 @@
+.FAQ{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+.FAQ-row{
+    width: 100% ;
+    height: 100%;
+}
+
+.FAQ h3{
+    color: #43121d;
+    margin-bottom: 15px;
+    font-size: 36px;
+    line-height: 46px;
+    font-weight: 700;
+}
+.col h4{
+    color: #000;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 0.2px;
+}
+
+.section{
+    background-image: url(	http://demo.tutsflow.com/foodera/images/parallax/2.jpg);
+    height: 23vh;
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-top: 15vh;
+    margin-bottom: 15vh;
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    position: relative;
+}
+.section::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: black;
+    opacity: .4;
+    z-index: 1;
+
+}
+.layer{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    z-index: 2;
+}
+.layer .container{
+    display: flex;
+    width: 50% !important;
+    justify-content: space-around;
+    align-items:center;
+    color: #fff;
+}
+
+.input-area{
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 15vh;
+
+}
+.sign-cont{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.sign-cont .row{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.row .input{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.row .text h3{
+    color: #43121d;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    margin: 0;
+    letter-spacing: 0.1px;
+    font-size: 36px;
+}
+input[type="text"] {
+    width: 250px;
+    height: 50px;
+    text-align: center;
+}
+.row .input .btn{
+    width: 35%;
+    font-size: 14px;
+    height: 50px;
+}
+
+.FAQ{
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15vh;
+}
+/* Other CSS code... */
+
+/* Media query for screens smaller than 600px */
+@media only screen and (max-width: 600px) {
+    .FAQ{
+        height: auto;
+        margin-top: 10vh;
+    }
+    .FAQ-row{
+        flex-direction: column;
+    }
+    /* Add other styles for smaller screens... */
+}
+
+/* Media query for screens between 600px and 1200px */
+@media only screen and (min-width: 600px) and (max-width: 1200px) {
+    .FAQ{
+        height: auto;
+        margin-top: 10vh;
+    }
+    .FAQ-row{
+        flex-direction: row;
+    }
+    /* Add other styles for medium screens... */
+}
+
+@media screen and (max-width:992px) {
+    .input-area .container .row .input {
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .input-area .container .row .input .btn {
+       margin-top: 2vh;
+    }
+}
+@media screen and (max-width:570px) {
+
+    .input-area .container .row .input .btn {
+      width: 100px;
+      margin-bottom: 5vh;
+    }
+    .input-area {
+
+        margin-bottom: 25vh;
+    }
+}
+@media screen and (max-width:277px) {
+
+    .input-area .container .row .input .btn {
+      width: 100px;
+      margin-bottom: 5vh;
+    }
+    .input-area {
+
+        margin-bottom: 35vh;
+    }
+}
+@media screen and (max-width:600px) {
+
+   .col-6{
+    width: 100% !important;
+   }
+}

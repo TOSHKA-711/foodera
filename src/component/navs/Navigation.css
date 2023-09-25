@@ -1,0 +1,26 @@
+
+button{
+    background-color: rgb(168,45,73) !important;
+    color:#fff!important ;
+    font-weight: bolder !important;
+}
+button:hover{
+background-color: #fff !important;
+color: rgb(168,45,73) !important;
+border: solid rgb(168,45,73) 2px !important;
+}
+
+.li{
+    font-weight: bold !important;
+    color: rgb(168,45,73) !important;
+}
+
+img{
+    width: 150px;
+max-width: 100% !important;
+}
+#navbar{
+position: fixed;
+width: 100%;
+z-index: 1000;
+}
