@@ -1,15 +1,26 @@
 {
   "files": {
-    "main.css": "/foodera/static/css/main.9dbceb72.css",
-    "main.js": "/foodera/static/js/main.50f35da0.js",
+    "main.css": "/foodera/static/css/main.5436c884.css",
+    "main.js": "/foodera/static/js/main.1b78e762.js",
     "static/js/787.35f14ba0.chunk.js": "/foodera/static/js/787.35f14ba0.chunk.js",
+    "static/media/2.png": "/foodera/static/media/2.b810024430d376b6bd6d.png",
+    "static/media/1.png": "/foodera/static/media/1.91adf8dc0779a423e014.png",
+    "static/media/03.jpg": "/foodera/static/media/03.0df4d0d0dda2d436bffc.jpg",
+    "static/media/back2.jpg": "/foodera/static/media/back2.580213ab4b0ed0a48210.jpg",
+    "static/media/home.jpg": "/foodera/static/media/home.d5ccf7d060b56b656a2a.jpg",
+    "static/media/ph1.jpg": "/foodera/static/media/ph1.960ff282036e3c4e63eb.jpg",
+    "static/media/back1.jpg": "/foodera/static/media/back1.8dac9ee9eb3e67760871.jpg",
+    "static/media/ph2.jpg": "/foodera/static/media/ph2.f6e01ff2a6ae714f244b.jpg",
+    "static/media/ph3.jpg": "/foodera/static/media/ph3.64f070ae2a9d41ef623b.jpg",
+    "static/media/01.jpg": "/foodera/static/media/01.1defe43a880022701c8d.jpg",
+    "static/media/02.jpg": "/foodera/static/media/02.a567a9db1482b99c0fab.jpg",
     "index.html": "/foodera/index.html",
-    "main.9dbceb72.css.map": "/foodera/static/css/main.9dbceb72.css.map",
-    "main.50f35da0.js.map": "/foodera/static/js/main.50f35da0.js.map",
+    "main.5436c884.css.map": "/foodera/static/css/main.5436c884.css.map",
+    "main.1b78e762.js.map": "/foodera/static/js/main.1b78e762.js.map",
     "787.35f14ba0.chunk.js.map": "/foodera/static/js/787.35f14ba0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.9dbceb72.css",
-    "static/js/main.50f35da0.js"
+    "static/css/main.5436c884.css",
+    "static/js/main.1b78e762.js"
   ]
 }
