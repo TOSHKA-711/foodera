@@ -2,13 +2,14 @@
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Navigation.css";
+import logo from "../imgs/logo.png"
 const Navigation = () => {
   return (
     <Navbar expand="lg" className="bg-body-tertiary" id="navbar">
       <Container>
         <div className="logo">
           <Navbar.Brand href="#home">
-            <img src="http://demo.tutsflow.com/foodera/images/logo.png"></img>
+            <img src={logo}></img>
           </Navbar.Brand>
         </div>
         <div className="nav-content">

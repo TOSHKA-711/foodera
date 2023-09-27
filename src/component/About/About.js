@@ -1,12 +1,13 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./About.css"
+import aboutImg from "../imgs/1.png"
 const About = () => {
   return (
     <div className=" container about" id="about-us">
       <div className="parent">
         <div className="child1 about-img">
-          <img src="http://demo.tutsflow.com/foodera/images/features/1.png"></img>
+          <img src={aboutImg}></img>
         </div>
         <div className="child2 about-text">
           <h2>

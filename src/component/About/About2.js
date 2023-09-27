@@ -2,6 +2,8 @@
 import React from "react";
 import "./About2.css";
 import { Fragment } from "react";
+import aboutImg2 from "../imgs/2.png"
+import back1 from "../imgs/back1.jpg"
 const About2 = () => {
   return (
     <Fragment>
@@ -31,7 +33,7 @@ const About2 = () => {
             <button className="btn about-btn">Learn More</button>
           </div>
           <div className="child about-img2">
-            <img src="http://demo.tutsflow.com/foodera/images/features/2.png"></img>
+            <img src={aboutImg2}></img>
           </div>
         </div>
       </div>

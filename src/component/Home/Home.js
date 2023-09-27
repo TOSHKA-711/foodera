@@ -1,6 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 import React from "react";
 import "./Home.css";
+import homeImg from "../imgs/home.jpg"
 const Home = () => {
   return (
     <div className="container home" id="home">
@@ -19,7 +20,7 @@ const Home = () => {
         <div className="image coll">
           <img
             className="home-img"
-            src="http://site.theshepherdoo.com/clients/theshepherdoo/images/photos/PiernaRojoVivo924201235034PM_O.jpg"
+            src={homeImg}
           ></img>
         </div>
       </div>

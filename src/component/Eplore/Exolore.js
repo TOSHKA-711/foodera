@@ -3,10 +3,13 @@ import "./Eplore.css";
 import { Fragment } from "react";
 import Button from "react-bootstrap/Button";
 import Card from "react-bootstrap/Card";
+import card1 from "../imgs/01.jpg"
+import card2 from "../imgs/02.jpg"
+import card3 from "../imgs/03.jpg"
 const Explore = () => {
   return (
     <Fragment>
-      <div className="container explore">
+      <div className="container explore" id="explore-food">
         <div className="text">
           <h3>Explore Our Foods</h3>
           <p>
@@ -21,7 +24,7 @@ const Explore = () => {
           <Card style={{ width: "22rem"} } className="card mb-4 border-0">
             <Card.Img className="img"
               variant="top"
-              src="http://demo.tutsflow.com/foodera/images/foods/01.jpg"
+              src={card1}
             />
             <Card.Body>
               <Card.Title>
@@ -40,7 +43,7 @@ const Explore = () => {
           <Card style={{ width: "22rem"} } className="card mb-4 border-0">
             <Card.Img className="img"
               variant="top"
-              src="http://demo.tutsflow.com/foodera/images/foods/02.jpg"
+              src={card2}
             />
             <Card.Body>
               <Card.Title>
@@ -59,7 +62,7 @@ const Explore = () => {
           <Card style={{ width: "22rem"} } className="card mb-4 border-0">
             <Card.Img className="img"
               variant="top"
-              src="http://demo.tutsflow.com/foodera/images/foods/03.jpg"
+              src={card3}
             />
             <Card.Body>
               <Card.Title>

@@ -2,10 +2,11 @@
 import React from "react";
 import { Fragment } from "react";
 import "./FAQ.css";
+// import back2 from "../imgs/back2.jpg"
 const FAQ = () => {
   return (
     <Fragment>
-      <div className="container FAQ">
+      <div className="container FAQ" id="faq">
         <h3>Frequently Asked Questions</h3>
         <div className="row FAQ-row">
           <div className="col col-6">
